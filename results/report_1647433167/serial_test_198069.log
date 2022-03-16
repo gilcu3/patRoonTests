@@ -1,0 +1,12 @@
+/home/users/regil/opt/Rtest/src
+aion-0199
+Wed Mar 16 13:19:21 CET 2022
+Total online memory:     256G
+script.R
+double free or corruption (fasttop)
+/var/spool/slurmd/job198069/slurm_script: line 21: 3134912 Aborted                 (core dumped) ~/R/bin/Rscript script.R
+
+real	49m19.677s
+user	957m41.050s
+sys	73m22.604s
+Wed Mar 16 14:08:44 CET 2022

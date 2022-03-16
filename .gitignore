@@ -1,0 +1,5 @@
+/src/renv/*
+cache.sqlite
+/opt/metfrag/MetFragCommandLine-2.4.7.jar
+/exp/PubChemLite_31Oct2020_exposomics.csv
+*.mzML

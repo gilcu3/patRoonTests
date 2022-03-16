@@ -1,0 +1,161 @@
+Welcome to patRoon 2.0.1!
+Configuration:
+- patRoon.cache.mode: "both"
+- patRoon.cache.fileName: "results/report_1647436381/cache.sqlite"
+- patRoon.MP.method: "classic"
+- patRoon.MP.maxProcs: "128"
+- patRoon.MP.futureSched: "1"
+- patRoon.MP.logPath: "results/report_1647436381/log"
+- patRoon.path.pwiz: ""
+- patRoon.path.GenForm: ""
+- patRoon.path.MetFragCL: "opt/metfrag/MetFragCommandLine-2.4.7.jar"
+- patRoon.path.MetFragCompTox: ""
+- patRoon.path.MetFragPubChemLite: ""
+- patRoon.path.SIRIUS: ""
+- patRoon.path.OpenMS: ""
+- patRoon.path.pngquant: ""
+- patRoon.path.obabel: ""
+- patRoon.path.BioTransformer: ""
+Loading required package: BiocParallel
+Loading required package: MSnbase
+Loading required package: BiocGenerics
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:patRoon’:
+
+    as.data.frame, unique
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, append, as.data.frame, basename, cbind, colnames,
+    dirname, do.call, duplicated, eval, evalq, Filter, Find, get, grep,
+    grepl, intersect, is.unsorted, lapply, Map, mapply, match, mget,
+    order, paste, pmax, pmax.int, pmin, pmin.int, Position, rank,
+    rbind, Reduce, rownames, sapply, setdiff, sort, table, tapply,
+    union, unique, unsplit, which.max, which.min
+
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+Loading required package: mzR
+Loading required package: Rcpp
+Loading required package: S4Vectors
+Loading required package: stats4
+
+Attaching package: ‘S4Vectors’
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+Loading required package: ProtGenerics
+
+Attaching package: ‘ProtGenerics’
+
+The following object is masked from ‘package:stats’:
+
+    smooth
+
+
+This is MSnbase version 2.20.4 
+  Visit https://lgatto.github.io/MSnbase/ to get started.
+
+
+Attaching package: ‘MSnbase’
+
+The following object is masked from ‘package:base’:
+
+    trimws
+
+
+This is xcms version 3.16.1 
+
+Detecting mass traces at 10 ppm ... OK
+Detecting chromatographic peaks in 58611 regions of interest ... OK: 4619 found.
+
+Detecting mass traces at 10 ppm ... OK
+Detecting chromatographic peaks in 55439 regions of interest ... OK: 4830 found.
+
+Detecting mass traces at 10 ppm ... OK
+Detecting chromatographic peaks in 58140 regions of interest ... OK: 4600 found.
+
+Detecting mass traces at 10 ppm ... OK
+Detecting chromatographic peaks in 58720 regions of interest ... OK: 4308 found.
+
+Detecting mass traces at 10 ppm ... OK
+Detecting chromatographic peaks in 55820 regions of interest ... OK: 5068 found.
+
+Detecting mass traces at 10 ppm ... OK
+Detecting chromatographic peaks in 55140 regions of interest ... OK: 4631 found.
+
+Detecting mass traces at 10 ppm ... OK
+Detecting chromatographic peaks in 58704 regions of interest ... OK: 6976 found.
+
+Detecting mass traces at 10 ppm ... OK
+Detecting chromatographic peaks in 57789 regions of interest ... OK: 6621 found.
+
+Detecting mass traces at 10 ppm ... OK
+Detecting chromatographic peaks in 60512 regions of interest ... OK: 7267 found.
+
+Error in x$.self$finalize() : attempt to apply non-function
+Detecting mass traces at 10 ppm ... OK
+Detecting chromatographic peaks in 60908 regions of interest ... OK: 7377 found.
+
+Detecting mass traces at 10 ppm ... OK
+Detecting chromatographic peaks in 60253 regions of interest ... OK: 7082 found.
+
+Error in x$.self$finalize() : attempt to apply non-function
+Detecting mass traces at 10 ppm ... OK
+Detecting chromatographic peaks in 60641 regions of interest ... OK: 7377 found.
+
+Detecting mass traces at 10 ppm ... OK
+Detecting chromatographic peaks in 57993 regions of interest ... OK: 5974 found.
+
+Detecting mass traces at 10 ppm ... OK
+Detecting chromatographic peaks in 57729 regions of interest ... OK: 6234 found.
+
+Error in x$.self$finalize() : attempt to apply non-function
+Detecting mass traces at 10 ppm ... OK
+Detecting chromatographic peaks in 61704 regions of interest ... OK: 7559 found.
+
+Sample number 4 used as center sample.
+Aligning 10-blank.mzML against 35-effluent_2.mzML ... OK
+
+Aligning 11-blank.mzML against 35-effluent_2.mzML ... OK
+
+Aligning 16-influent_1.mzML against 35-effluent_2.mzML ... OK
+
+Aligning 09-blank.mzML against 35-effluent_2.mzML ... OK
+
+Aligning 19-effluent_1.mzML against 35-effluent_2.mzML ... OK
+
+Aligning 33-effluent_2.mzML against 35-effluent_2.mzML ... OK
+
+Aligning 20-effluent_1.mzML against 35-effluent_2.mzML ... OK
+
+Aligning 15-influent_1.mzML against 35-effluent_2.mzML ... OK
+
+Aligning 17-influent_1.mzML against 35-effluent_2.mzML ... OK
+
+Aligning 30-influent_2.mzML against 35-effluent_2.mzML ... OK
+
+Aligning 34-effluent_2.mzML against 35-effluent_2.mzML ... OK
+
+Aligning 29-influent_2.mzML against 35-effluent_2.mzML ... OK
+
+Aligning 31-influent_2.mzML against 35-effluent_2.mzML ... OK
+
+Aligning 21-effluent_1.mzML against 35-effluent_2.mzML ... OK
+
+Apply retention time correction performed on MS1 to spectra from all MS levels
+Applying retention time adjustment to the identified chromatographic peaks ... OK
+Processing 240152 mz slices ... OK

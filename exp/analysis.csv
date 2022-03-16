@@ -1,0 +1,16 @@
+path,analysis,group,blank
+exp/mzml,09-blank,blank,blank
+exp/mzml,10-blank,blank,blank
+exp/mzml,11-blank,blank,blank
+exp/mzml,35-effluent_2,sample,blank
+exp/mzml,34-effluent_2,sample,blank
+exp/mzml,33-effluent_2,sample,blank
+exp/mzml,19-effluent_1,sample,blank
+exp/mzml,20-effluent_1,sample,blank
+exp/mzml,21-effluent_1,sample,blank
+exp/mzml,29-influent_2,control,blank
+exp/mzml,17-influent_1,control,blank
+exp/mzml,16-influent_1,control,blank
+exp/mzml,15-influent_1,control,blank
+exp/mzml,30-influent_2,control,blank
+exp/mzml,31-influent_2,QC,blank

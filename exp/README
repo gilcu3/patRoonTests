@@ -1,0 +1,4 @@
+The raw files were obtained from https://zenodo.org/record/3885448
+and converted using
+> convertMSFiles("raw", "mzml", dirs = TRUE, from = "thermo", to = "mzML", algorithm="pwiz", centroid = "vendor", filters = "msLevel 1")
+The local PubchemLite database was obtained from https://zenodo.org/record/4183801
