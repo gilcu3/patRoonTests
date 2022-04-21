@@ -14,13 +14,13 @@ process_f <- function(data, datatype, dbid, output){
 	options(patRoon.cache.fileName = cache_path)
 	# options(patRoon.MP.maxProcs = 1)
 	
-	
+	library(patRoon, warn.conflicts=FALSE)
 	
 	print(paste("Executing experiment: ", data, datatype, myLocalDatabasePath, output, "Number of cores:", getOption("patRoon.MP.maxProcs")))
 	
 	
 	
-	library(patRoon, warn.conflicts=FALSE)
+	
 	
 	anaInfo <- read.csv(analysis_input)
 	
